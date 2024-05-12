@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Focus - Bootstrap Admin Dashboard </title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+    <link href="./css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <a href="index.html" class="brand-logo">
+
+            </a>
+
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+            <div class="header-content">
+                <nav class="navbar navbar-expand">
+                    <div class="collapse navbar-collapse justify-content-between">
+                        <div class="header-left">
+                            <div class="search_bar dropdown">
+                                <span class="search_icon p-3 c-pointer" data-toggle="dropdown">
+                                   
+                                </span>
+                                <div class="dropdown-menu p-0 m-0">
+                                    <form>
+                                        <input class="form-control" type="search" placeholder="Global Economy Growth" aria-label="Search">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="navbar-nav header-right">
+                            <li class="nav-item dropdown notification_dropdown">
+                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
+
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <ul class="list-unstyled">
+                                        <li class="media dropdown-item">
+                                            <span class="success"><i class="ti-user"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong>Martin</strong> has added a <strong>customer</strong> Successfully
+                                                    </p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                        <li class="media dropdown-item">
+                                            <span class="primary"><i class="ti-shopping-cart"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong>Jennifer</strong> purchased Light Dashboard 2.0.</p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                        <li class="media dropdown-item">
+                                            <span class="danger"><i class="ti-bookmark"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong>Robin</strong> marked a <strong>ticket</strong> as unsolved.
+                                                    </p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                        <li class="media dropdown-item">
+                                            <span class="primary"><i class="ti-heart"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong>David</strong> purchased Light Dashboard 1.0.</p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                        <li class="media dropdown-item">
+                                            <span class="success"><i class="ti-image"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong> James.</strong> has added a<strong>customer</strong> Successfully
+                                                    </p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                    </ul>
+                                    <a class="all-notification" href="#">See all notifications <i
+                                            class="ti-arrow-right"></i></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown header-profile">
+                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
+                    
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a href="./app-profile.html" class="dropdown-item">
+                                        <i class="icon-user"></i>
+                                        <span class="ml-2">Profile </span>
+                                    </a>
+                                    <a href="./email-inbox.html" class="dropdown-item">
+                                        <i class="icon-envelope-open"></i>
+                                        <span class="ml-2">Inbox </span>
+                                    </a>
+                                    <a href="./page-login.html" class="dropdown-item">
+                                        <i class="icon-key"></i>
+                                        <span class="ml-2">Logout </span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="quixnav">
+            <div class="quixnav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label first">Main Menu</li>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                                class="icon icon-single-04"></i><span class="nav-text">Dashboard</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="./index.html">Dashboard 1</a></li>
+                            <li><a href="./index2.html">Dashboard 2</a></li>
+                        </ul>
+                    </li>
+                
+                                </i><span class="nav-text"></span></a>
+                        <ul aria-expanded="false">
+                            
+                            
+                            </li>
+                           
+                        </ul>
+                    </li>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                                class="icon icon-chart-bar-33"></i><span class="nav-text">Artikel</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="./chart-flot.html">Indonesia</a></li>
+                            <li><a href="./artikel.html">India</a></li>
+                        </ul>
+                    </li>
+                   
+                    </li>
+
+                   
+                    </li>
+                
+                                
+                   
+                   
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                                class="icon icon-layout-25"></i><span class="nav-text">Contact</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="table-datatable-basic.html">Contact</a></li>
+                        </ul>
+                    </li>
+
+                   
+                        <ul aria-expanded="false">
+
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+       
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+            <div class="container-fluid">
+                <div class="row page-titles mx-0">
+                    <div class="col-sm-6">
+                        <div class="welcome-text">
+                            <h4>Hi, welcome back!</h4>
+                            <span class="ml-1">India</span>
+                        </div>
+                    </div>
+                    <img src="gambar/image7.jpeg" alt=""
+                                    </div>
+                                    
+             </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">The contradiction of the economic condition of the people between rich and poor, Indian economists to judge their own country as a country of contradictions. The Indian government's efforts to bring the country's economy to the better have not been followed by an increase or even improvement in the living standards of most of its people living in poverty. Simultaneously with economic reforms and implementation of government policies of this country in the economic sector, Globalization is developing and influential in it.</h4>
+                                
+               </div>
+               <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">The progress of several vital sectors due to globalization is able to provide its own 'opportunity' for some elements of Indian society to improve their 'standard of living'. The Government of India formed a classification among the lower society in India into 3 parts, namely: Scheduled Tribes, Scheduled Castes, and Other Backward Castes.</h4>
+                            
+                        </div>
+                        <div class="row">
+                         <div class="col-lg-12">
+                             <div class="card">
+                                 <div class="card-header">
+                                     <h4 class="card-title">Most poverty in India comes from scheduled castes and scheduled tribes who are generally domiciled in rural areas.</h4>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <h4 class="card-title">Terkait dengan ekonomi Tiongkok, Dana Moneter Internasional (IMF) memangkas pro­yeksi pertumbuhan Tiongkok dari 6,6 persen menjadi 6,2 persen di 2019. Ini merupakan per­tumbuhan ekonomi paling lemah sejak 1990. Otomatis, pertumbuhan ekonomi global akan terkena dampak perlambatan tersebut.
+
+                                                        “Pertumbuhan ekonomi di 2019 masih akan lumayan walau tren dunia menurun dibanding 2018. IMF dua kali menurunkan pertumbuhan ekonomi dunia dari 3,9 persen menjadi 3,7 per­sen dan akhirnya 3,5,” tutur Faisal.
+                                                        
+                                                        Dia menambahkan faktor keempat yang juga harus diantisipasi adalah kecenderungan harga minyak dunia yang kembali merangkak ke level 60–80 dollar AS per barel dan harga komoditas yang masih rentan bergejolak.
+                                                        
+                                                        Secara terpisah, Direktur Eksekutif Indo­nesia Global Justice (IGJ), Rachmi Hertanti, mengemukakan hal senada. Menurut dia, perlambatan perdagangan global pada 2019 berpeluang terjadi akibat perang dagang yang mengganjal ekonomi Tiongkok dan AS. Se­lain itu, potensi penurunan harga komoditas dan pembatasan impor komoditas di bebera­pa negara, khususnya terkait dengan kebijak­an ramah lingkungan yang melarang penggu­naan sawit dan batu bara. “Hal ini tentu akan mempengaruhi kinerja perdagangan Indone­sia, khususnya di sektor nonmigas,” papar dia. (Lihat infografis)</h4>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="card">
+                                                            <div class="card-header">
+                                                                <h4 class="card-title">Because of this restriction, many members of these groups are in absolute poverty. From the conceptual framework above, this paper then raises the main idea that the economic contradictions experienced by India are caused by: first, the economic liberalization policy of the Indian government after 1991 which creates a gap between the success of several economic sectors and the socioeconomic conditions of society, second, the strong influence of the social system of Indian society in inequality acquisition of social facilities.</h4>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <div class="card">
+                                                                        <div class="card-header">
+                                                                            <h4 class="card-title">Keywords: Globalization; Economy - India
+                                                                                </h4>
+                                                                            </div>
+                                                                                              
+                        
+                                     
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+ 
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button start
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+
+        
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+    <section class="container col text-center mt-5" id="ask">
+        <div class="p-5">
+            <h2>BUAT PERTANYAAN DITANYAKAN</h2>
+            <div class="accordion mt-4" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingAsk">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                             data-target="#collapseAsk" aria-expanded="false" aria-controls="collapseAsk">
+                                Tanyakan Pertanyaan Baru
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseAsk" class="collapse" aria-labelledby="headingAsk" data-parent="#accordionExample">
+                        <div class="card-body">
+                        <!-- Form untuk menyimpan pertanyaan -->
+                            <form method="post" action="simpan_pertanyaan.php">
+                                <div class="form-group">
+                                    <label for="pertanyaan">Pertanyaan Anda:</label>
+                                    <textarea class="form-control" id="pertanyaan" name="pertanyaan" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Kirim Pertanyaan</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="./vendor/global/global.min.js"></script>
+    <script src="./js/quixnav-init.js"></script>
+    <script src="./js/custom.min.js"></script>
+    
+
+
+
+    <script src="./vendor/flot/jquery.flot.js"></script>
+    <script src="./vendor/flot/jquery.flot.pie.js"></script>
+    <script src="./vendor/flot/jquery.flot.resize.js"></script>
+    <script src="./vendor/flot-spline/jquery.flot.spline.min.js"></script>
+    <script src="./js/plugins-init/flot-init.js"></script>
+
+</body>
+
+</html>

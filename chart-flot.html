@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Focus - Bootstrap Admin Dashboard </title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+    <link href="./css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <a href="index.html" class="brand-logo">
+
+            </a>
+
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+            <div class="header-content">
+                <nav class="navbar navbar-expand">
+                    <div class="collapse navbar-collapse justify-content-between">
+                        <div class="header-left">
+                            <div class="search_bar dropdown">
+                                <span class="search_icon p-3 c-pointer" data-toggle="dropdown">
+                                   
+                                </span>
+                                <div class="dropdown-menu p-0 m-0">
+                                    <form>
+                                        <input class="form-control" type="search" placeholder="Global Economy Growth" aria-label="Search">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="navbar-nav header-right">
+                            <li class="nav-item dropdown notification_dropdown">
+                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
+
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <ul class="list-unstyled">
+                                        <li class="media dropdown-item">
+                                            <span class="success"><i class="ti-user"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong>Martin</strong> has added a <strong>customer</strong> Successfully
+                                                    </p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                        <li class="media dropdown-item">
+                                            <span class="primary"><i class="ti-shopping-cart"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong>Jennifer</strong> purchased Light Dashboard 2.0.</p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                        <li class="media dropdown-item">
+                                            <span class="danger"><i class="ti-bookmark"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong>Robin</strong> marked a <strong>ticket</strong> as unsolved.
+                                                    </p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                        <li class="media dropdown-item">
+                                            <span class="primary"><i class="ti-heart"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong>David</strong> purchased Light Dashboard 1.0.</p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                        <li class="media dropdown-item">
+                                            <span class="success"><i class="ti-image"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong> James.</strong> has added a<strong>customer</strong> Successfully
+                                                    </p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time">3:20 am</span>
+                                        </li>
+                                    </ul>
+                                    <a class="all-notification" href="#">See all notifications <i
+                                            class="ti-arrow-right"></i></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown header-profile">
+                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
+                    
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a href="./app-profile.html" class="dropdown-item">
+                                        <i class="icon-user"></i>
+                                        <span class="ml-2">Profile </span>
+                                    </a>
+                                    <a href="./email-inbox.html" class="dropdown-item">
+                                        <i class="icon-envelope-open"></i>
+                                        <span class="ml-2">Inbox </span>
+                                    </a>
+                                    <a href="./page-login.html" class="dropdown-item">
+                                        <i class="icon-key"></i>
+                                        <span class="ml-2">Logout </span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="quixnav">
+            <div class="quixnav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label first">Main Menu</li>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                                class="icon icon-single-04"></i><span class="nav-text">Dashboard</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="./index.html">Dashboard 1</a></li>
+                            <li><a href="./index2.html">Dashboard 2</a></li>
+                        </ul>
+                    </li>
+                
+                                </i><span class="nav-text"></span></a>
+                        <ul aria-expanded="false">
+                            
+                            
+                            </li>
+                           
+                        </ul>
+                    </li>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                                class="icon icon-chart-bar-33"></i><span class="nav-text">Artikel</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="./chart-flot.html">Indonesia</a></li>
+                            <li><a href="./artikel.html">India</a></li>
+                        </ul>
+                    </li>
+                   
+                    </li>
+
+                   
+                    </li>
+                
+                                
+                   
+                   
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                                class="icon icon-layout-25"></i><span class="nav-text">Contact</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="table-datatable-basic.html">Contact</a></li>
+                        </ul>
+                    </li>
+
+                   
+                        <ul aria-expanded="false">
+
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+       
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+            <div class="container-fluid">
+                <div class="row page-titles mx-0">
+                    <div class="col-sm-6">
+                        <div class="welcome-text">
+                            <h4>Hi, welcome back!</h4>
+                            <span class="ml-1">Indonesia</span>
+                        </div>
+                    </div>
+                    <img src="gambar/image6.jpg" alt=""
+                                    </div>
+                                    
+             </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Nilai tambah ekonomi di sektor pertanian dan manufaktur mesti ditingkatkan untuk mendorong pertumbuhan ekspor.</h4>
+                                
+               </div>
+               <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">JAKARTA - The government is asked to pay close attention to global economic conditions that are still shrouded in uncertainty, which has the potential to affect Indonesia's economic performance. There are at least four challenges to watch out for this year.</h4>
+                            
+                        </div>
+                        <div class="row">
+                         <div class="col-lg-12">
+                             <div class="card">
+                                 <div class="card-header">
+                                     <h4 class="card-title">First, the increase in interest rates of the Central Bank of the United States (US) or the Fed. Second, the US-China trade war which resulted in shrinking global trade. Third, the threat of a slowdown in the Chinese economy. Fourth, the upward trend in oil prices and commodity price turmoil.
+
+                                        This was revealed by senior economist, Faisal Basri, in Jakarta, Wednesday (13/2). "In 2020 it will be even greater (the challenge), because there are more signs although not yet significant threats crisis in the US. The US economy has slowed until 2020, this is also the impact of the government shutdown," Faisal continued.</h4>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <h4 class="card-title">Regarding the Chinese economy, the International Monetary Fund (IMF) cut its forecast for China's growth from 6.6 percent to 6.2 percent in 2019. This is the weakest economic growth since 1990. Automatically, global economic growth will be affected by the slowdown.
+
+                                                        "Economic growth in 2019 will still be decent even though the world trend is declining compared to 2018. The IMF twice lowered world economic growth from 3.9 percent to 3.7 percent and finally 3.5," Faisal said.
+                                                        
+                                                        He added that the fourth factor that must also be anticipated is the tendency of world oil prices to crawl back to the level of 60-80 US dollars per barrel and commodity prices that are still vulnerable to fluctuations.
+                                                        
+                                                        Separately, Executive Director of Indonesia Global Justice (IGJ), Rachmi Hertanti, said the same thing. According to him, the slowdown in global trade in 2019 is likely to occur due to the trade war that hampers the economies of China and the US. In addition, the potential decline in commodity prices and restrictions on commodity imports in several countries, especially related to environmentally friendly policies that prohibit the use of palm oil and coal. "This will certainly affect trading performance Global in 2019 is likely to occur due to the trade war that hampers the economies of China and the US. In addition, the potential decline in commodity prices and restrictions on commodity imports in several countries, especially related to environmentally friendly policies that prohibit the use of palm oil and coal. "This will certainly affect Indonesia's trade performance, especially in the non-oil and gas sector," he said. (See infographic)</h4>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="card">
+                                                            <div class="card-header">
+                                                                <h4 class="card-title">Rachmi added, in responding to today's global economy, the government has developed several priority strategies in the 2019 CTR to increase the competitiveness of national industries. One of them is policies that are expected to increase the added value of the agricultural sector, processing industry, and productive services such as the tourism sector and electronic commerce or e-commerce.
+
+                                                                    IGJ assessed, the opening of new markets targeted by the government still has not seen results. Moreover, some bilateral free trade agreement (FTA) negotiations have not been completed, so the expected positive effects cannot be implemented in the short term.
+                                                                    
+                                                                    In the context of strengthening the downstream industry, continued Rachmi, this year the government compiled priority programs to increase economic added value in the agricultural sector and manufacturing industry in order to encourage export growth.
+                                                                    
+                                                                    "This strategy is very important to strengthen Indonesia's role in the Global Value Chain agenda so that it is not only targeted as a market," he said.</h4>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <div class="card">
+                                                                        <div class="card-header">
+                                                                            <h4 class="card-title">Rupiah depreciation
+
+                                                                                Talking about the exchange rate, Faisal reminded that as long as the current account balance continues to deficit, the "ghost" of rupiah weakening will still occur. "The rupiah is currently back to the level of 14,000 rupiah per US dollar. Slightly strengthened. But in theory and historically it will weaken because of the current account deficit (CAD)," he said.
+                                                                                
+                                                                                In 2018, Indonesia's CAD reached 2.98 percent of Gross Domestic Product (GDP) or around 31.1 billion US dollars.
+                                                                                
+                                                                                Faisal explained that the current account consists of export-import that occurs every day, while the rupiah relies heavily on the strength of incoming foreign capital.
+                                                                                
+                                                                                "The rupiah will strengthen sustainably if CAD falls and capital inflows rise, especially FDI (Foreign Direct Investment)," he said.
+                                                                                
+                                                                                According to Faisal, what is happening now, the CAD is not entirely related to the oil and gas balance deficit. Actually, the cause of the deficit is the decline in non-oil and gas exports. "The increase in non-oil and gas imports is devastating. We only import sugar, salt too, rice is also imported," he said. ahm/WP
+                                                                                </h4>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-12">
+                                                                                    <div class="card">
+                                                                                        <div class="card-header">
+                                                                                            <h4 class="card-title">Source >>>http://www.koran-jakarta.com/perlu-antisipasi-4-tantangan-ekonomi-global/  </h4>
+                                                                                            
+                                                                                                                                
+                        
+                                     
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+ 
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button start
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+
+        
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+    <section class="container col text-center mt-5" id="ask">
+        <div class="p-5">
+            <h2>Question</h2>
+            <div class="accordion mt-4" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingAsk">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                             data-target="#collapseAsk" aria-expanded="false" aria-controls="collapseAsk">
+                                Click here
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseAsk" class="collapse" aria-labelledby="headingAsk" data-parent="#accordionExample">
+                        <div class="card-body">
+                        <!-- Form untuk menyimpan pertanyaan -->
+                            <form method="post" action="simpan_pertanyaan.php">
+                                <div class="form-group">
+                                    <label for="pertanyaan">Pertanyaan Anda:</label>
+                                    <textarea class="form-control" id="pertanyaan" name="pertanyaan" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Kirim Pertanyaan</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="./vendor/global/global.min.js"></script>
+    <script src="./js/quixnav-init.js"></script>
+    <script src="./js/custom.min.js"></script>
+    
+
+
+
+    <script src="./vendor/flot/jquery.flot.js"></script>
+    <script src="./vendor/flot/jquery.flot.pie.js"></script>
+    <script src="./vendor/flot/jquery.flot.resize.js"></script>
+    <script src="./vendor/flot-spline/jquery.flot.spline.min.js"></script>
+    <script src="./js/plugins-init/flot-init.js"></script>
+
+</body>
+
+</html>
